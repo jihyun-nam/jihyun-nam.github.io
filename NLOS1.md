@@ -1,7 +1,7 @@
 ---
 title: NLOS Imaging Review
 auto-header: none
-layout: "NLOS"
+layout: "nlos"
 icon: fa-book
 order: 3
 ---
