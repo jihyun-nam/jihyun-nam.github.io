@@ -4,6 +4,7 @@ auto-header: none
 layout: "nlos"
 icon: fa-book
 order: 3
+hide: true
 ---
 # NLOS
 
