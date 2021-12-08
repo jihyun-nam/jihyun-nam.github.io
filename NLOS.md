@@ -4,6 +4,7 @@ auto-header: none
 layout: "NLOS"
 icon: fa-book
 order: 3
+hide: true
 ---
 # Generative Adversarial Networks 
 
