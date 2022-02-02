@@ -4,6 +4,8 @@ auto-header: none
 layout: "nlos"
 icon: fa-book
 order: 2
+category: Dev
+tags: [web, jekyll]
 ---
 
 <header>
@@ -336,6 +338,15 @@ Calibrations (Arxiv 2022): <a href="https://arxiv.org/pdf/2112.14555.pdf" target
 
 </ul>
 
+<br><br><hr>
+{% comment %}
+=======================
+The purpose of this snippet is to list all the tags you have in your site.
+=======================
+{% endcomment %}
+{% for tag in tags %}
+	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
+{% endfor %}
 
 <br><br>
 <hr>
